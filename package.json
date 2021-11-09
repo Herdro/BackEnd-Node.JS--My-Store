@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
-    "lint": "eslint"
+    "lint": "eslint",
+    "migration:generate": "sequelize-cli migration:generate --name"
   },
   "keywords": [],
   "author": "Pedro Herrera <pedro.herrera.bazaes@gmail.com>",
@@ -16,7 +17,8 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "nodemon": "^2.0.14",
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "sequelize-cli": "^6.3.0"
   },
   "dependencies": {
     "@hapi/boom": "^9.1.4",
